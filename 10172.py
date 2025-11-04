@@ -1,9 +1,5 @@
-a = input()
-a = int(a)
-b = input()
-b = int(b)
-if a > b:
-    print(">")
-elif a < b:
-    print("<")
-else:print("=")
+print("|_/|")
+print("|q p|   /}")
+print('( 0 )"""\')
+print('|"^"`    |')
+print('||_/=\\__|')
