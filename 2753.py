@@ -1,4 +1,5 @@
 a=int(input())
+
 if a%400 == 0:
     print("1")
 elif a%100 == 0:
