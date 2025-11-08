@@ -1,7 +1,7 @@
 grade = input()
 grade = int(grade)
 
-if grade in range (90, 100):
+if grade in range (90, 101):
     print("A")
 
 elif grade in range (80, 89):
