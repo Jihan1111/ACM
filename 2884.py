@@ -1,5 +1,6 @@
-h=int(input())
-m=int(input())
+h,m=input().split()
+h=int(h)
+m=int(m)
 m=m-45
 
 if m<0:
@@ -7,9 +8,6 @@ if m<0:
     h=h-1
     if h<0:
         h=24+h
-else:
-    print(h,m)
 
 print(h,m)
-
 
