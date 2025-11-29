@@ -10,3 +10,4 @@ elif a==b or b==c or a==b:
 else:
     money=max(a,b,c)
 print(money)
+#eS
