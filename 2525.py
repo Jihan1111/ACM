@@ -1,4 +1,13 @@
-h,m=input().split()
+# a = raw_input()
+# print(a)
+# print("-----------------")
+# l = a.split(" ")
+# print(l)
+
+
+
+
+h,m=raw_input().split(" ")
 t=int(input())
 h=int(h)
 m=int(m)

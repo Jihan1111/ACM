@@ -1,13 +1,12 @@
-a,b,c=input().split()
-h=int(h)
-m=int(m)
-m=m-45
+a,b,c=raw_input().split(" ")
+a=int(a)
+b=int(b)
+c=int(c)
 
-if m<0:
-    m=60+m
-    h=h-1
-    if h<0:
-        h=24+h
-
-print(h,m)
-
+if a==b==c:
+    money=10000+a*1000
+elif a==b or b==c or a==b:
+    money=1000+a*100
+else:
+    money=max(a,b,c)
+print(money)
