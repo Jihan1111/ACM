@@ -6,7 +6,6 @@ for i in range(1,n+1):
     a=int(ab.split(" ")[0])
     b=int(ab.split(" ")[1])
     c=c+(a*b)
-print(c)
 if c==x:
     print("Yes")
 elif c!=x:
