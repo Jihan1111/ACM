@@ -1,23 +1,12 @@
-# a = raw_input()
-# print(a)
-# print("-----------------")
-# l = a.split(" ")
-# print(l)
-
-
-
-
-h,m=raw_input().split(" ")
+hm=input()
+h=int(hm.split(" ")[0])
+m=int(hm.split(" ")[1])
 t=int(input())
-h=int(h)
-m=int(m)
-m=m-t
-
-if m<0:
-    m=60+m
-    h=h-1
-    if h<0:
-        h=24+h
-
+m=m+t
+while m>=60:
+    if m>=60:
+        m=-1*(60-m)
+        h=h+1
+        if h>=24:
+            h=-1*(24-h)
 print(h,m)
-
