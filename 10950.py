@@ -8,3 +8,4 @@ for i in range(0,q):
     l.append(c)
 for o in range(0,q):
     print(l[o])
+#완료
