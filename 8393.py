@@ -1,5 +1,5 @@
 n=int(input())
-hap=1
-for i in range(i,n+1):
-    chonghap=hap+i
-print(chonghap)
+a=0
+for i in range(1,n+1):
+    a=a+i
+print(a)
