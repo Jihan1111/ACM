@@ -13,3 +13,4 @@ while s==0:
         l.append(c)
 for i in range(0,count-1):
     print(l[i])
+    
