@@ -1,6 +1,6 @@
 l=[]
 for i in range(0,9):
-    nine=input()
+    nine=int(input())
     l.append(nine)
     nine=None
 a=False
