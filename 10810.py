@@ -6,6 +6,8 @@ def spliting(main,many):
         splitinglist.append(int(main.split(" ")[splitingmany]))
     return splitinglist
 
+
+
 nm=input()
 n,m=spliting(nm,2)
 bowl=[]
