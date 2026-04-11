@@ -8,4 +8,4 @@ for base in range(0,n):
     l.append(int(al.split(" ")[base]))
 anum=min(l)
 bnum=max(l)
-print(anum,bnum)
+print(anum,)
